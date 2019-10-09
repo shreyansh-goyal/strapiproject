@@ -1,0 +1,92 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attendance",
+      "handler": "Attendance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendance/count",
+      "handler": "Attendance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendance/:id",
+      "handler": "Attendance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attendance",
+      "handler": "Attendance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attendance/all",
+      "handler": "Attendance.createall",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attendance/:id",
+      "handler": "Attendance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attendance/all/:id",
+      "handler": "Attendance.updateall",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attendance/:id",
+      "handler": "Attendance.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attendance/:id/relationships/:relation",
+      "handler": "Attendance.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attendance/:id/relationships/:relation",
+      "handler": "Attendance.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attendance/:id/relationships/:relation",
+      "handler": "Attendance.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

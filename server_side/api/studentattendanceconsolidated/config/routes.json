@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentattendanceconsolidated",
+      "handler": "Studentattendanceconsolidated.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentattendanceconsolidated/count",
+      "handler": "Studentattendanceconsolidated.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentattendanceconsolidated/:id",
+      "handler": "Studentattendanceconsolidated.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentattendanceconsolidated",
+      "handler": "Studentattendanceconsolidated.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentattendanceconsolidated/:id",
+      "handler": "Studentattendanceconsolidated.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentattendanceconsolidated/:id",
+      "handler": "Studentattendanceconsolidated.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentattendanceconsolidated/:id/relationships/:relation",
+      "handler": "Studentattendanceconsolidated.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentattendanceconsolidated/:id/relationships/:relation",
+      "handler": "Studentattendanceconsolidated.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentattendanceconsolidated/:id/relationships/:relation",
+      "handler": "Studentattendanceconsolidated.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

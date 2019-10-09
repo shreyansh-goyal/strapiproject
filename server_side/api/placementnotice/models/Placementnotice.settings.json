@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "placementnotices",
+  "info": {
+    "name": "placementnotice",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "noticeId": {
+      "default": "",
+      "type": "integer"
+    },
+    "noticeDate": {
+      "default": "",
+      "type": "date"
+    },
+    "notice": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

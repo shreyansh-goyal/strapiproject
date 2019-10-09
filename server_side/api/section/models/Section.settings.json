@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "sections",
+  "info": {
+    "name": "section",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "no": {
+      "default": "",
+      "type": "integer",
+      "increments": true
+    },
+    "courseId": {
+      "default": 0,
+      "type": "integer"
+    },
+    "section": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "deleted": {
+      "default": 0,
+      "type": "integer",
+      "required": true
+    },
+    "timestamp": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

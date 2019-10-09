@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "teachers",
+  "info": {
+    "name": "teacher",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "teacherId": {
+      "default": "",
+      "unique": true,
+      "type": "integer"
+    },
+    "teacherName": {
+      "default": "",
+      "type": "string"
+    },
+    "teacherPhone": {
+      "default": "",
+      "type": "string"
+    },
+    "teacherEmail": {
+      "default": "",
+      "type": "string"
+    },
+    "officialEmailId": {
+      "default": "",
+      "type": "string"
+    },
+    "joiningDate": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

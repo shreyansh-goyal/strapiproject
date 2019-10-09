@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "studentattendanceconsolidated",
+  "info": {
+    "name": "studentattendanceconsolidated",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "courseId": {
+      "default": "",
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    },
+    "section": {
+      "default": "",
+      "type": "integer"
+    },
+    "group": {
+      "default": "",
+      "type": "string"
+    },
+    "attendance": {
+      "default": "",
+      "type": "string"
+    },
+    "attendenceId": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

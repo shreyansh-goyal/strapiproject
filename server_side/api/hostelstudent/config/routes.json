@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hostelstudents",
+      "handler": "Hostelstudent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hostelstudents/count",
+      "handler": "Hostelstudent.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hostelstudents/:id",
+      "handler": "Hostelstudent.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hostelstudents",
+      "handler": "Hostelstudent.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hostelstudents/:id",
+      "handler": "Hostelstudent.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hostelstudents/:id",
+      "handler": "Hostelstudent.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

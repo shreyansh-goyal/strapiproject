@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentdrive",
+      "handler": "Studentdrive.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentdrive/count",
+      "handler": "Studentdrive.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentdrive/:id",
+      "handler": "Studentdrive.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentdrive",
+      "handler": "Studentdrive.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentdrive/:id",
+      "handler": "Studentdrive.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentdrive/:id",
+      "handler": "Studentdrive.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentdrive/:id/relationships/:relation",
+      "handler": "Studentdrive.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentdrive/:id/relationships/:relation",
+      "handler": "Studentdrive.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentdrive/:id/relationships/:relation",
+      "handler": "Studentdrive.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

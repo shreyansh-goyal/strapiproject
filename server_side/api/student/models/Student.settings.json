@@ -1,0 +1,151 @@
+{
+  "connection": "default",
+  "collectionName": "students",
+  "info": {
+    "name": "student",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "rollNo": {
+      "default": 0,
+      "type": "integer",
+      "required": true
+    },
+    "enrollmentNo": {
+      "default": 0,
+      "type": "string",
+      "required": true
+    },
+    "courseId": {
+      "default": 0,
+      "type": "integer",
+      "required": true
+    },
+    "semester": {
+      "default": 0,
+      "type": "integer",
+      "required": true
+    },
+    "year": {
+      "default": 0,
+      "type": "integer",
+      "required": true
+    },
+    "section": {
+      "default": "0",
+      "type": "string",
+      "required": true
+    },
+    "group": {
+      "default": "0",
+      "type": "string",
+      "required": true
+    },
+    "studentName": {
+      "default": "0",
+      "type": "string",
+      "required": true
+    },
+    "fatherName": {
+      "default": "0",
+      "type": "string",
+      "required": true
+    },
+    "motherName": {
+      "default": "0",
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "default": "0",
+      "type": "string"
+    },
+    "dob": {
+      "default": "",
+      "type": "date"
+    },
+    "phoneNo": {
+      "default": "",
+      "type": "string"
+    },
+    "fatherPhoneNo": {
+      "default": "",
+      "type": "string"
+    },
+    "emailId": {
+      "default": "",
+      "type": "email"
+    },
+    "fatherEmailId": {
+      "default": "",
+      "type": "email"
+    },
+    "isDropped": {
+      "default": 0,
+      "max": 4294967295,
+      "type": "integer",
+      "required": true
+    },
+    "dropReason": {
+      "default": "0",
+      "type": "text"
+    },
+    "aggregate": {
+      "default": "",
+      "type": "float"
+    },
+    "activeBacklogs": {
+      "default": "",
+      "type": "integer"
+    },
+    "placed": {
+      "default": "",
+      "type": "integer"
+    },
+    "companyName": {
+      "default": "",
+      "type": "string"
+    },
+    "tenPercentage": {
+      "default": "",
+      "type": "float"
+    },
+    "twelfthPercentage": {
+      "default": 0,
+      "type": "float"
+    },
+    "diploma": {
+      "default": "",
+      "type": "string"
+    },
+    "gap": {
+      "default": "",
+      "type": "integer"
+    },
+    "enteranceRank": {
+      "default": "",
+      "type": "integer"
+    },
+    "resumeUrl": {
+      "default": "",
+      "type": "text"
+    },
+    "blockedFromDrive": {
+      "default": "0",
+      "type": "string"
+    },
+    "libraryId": {
+      "default": "",
+      "type": "string"
+    },
+    "libraryFine": {
+      "default": "0",
+      "type": "string"
+    }
+  }
+}

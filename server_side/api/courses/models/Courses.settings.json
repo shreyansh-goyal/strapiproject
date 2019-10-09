@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "courses",
+  "info": {
+    "name": "courses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "departmentId": {
+      "default": 0,
+      "type": "integer"
+    },
+    "shortForm": {
+      "default": "0",
+      "type": "string"
+    },
+    "name": {
+      "default": "0",
+      "type": "string"
+    },
+    "years": {
+      "default": 0,
+      "type": "integer"
+    }
+  }
+}

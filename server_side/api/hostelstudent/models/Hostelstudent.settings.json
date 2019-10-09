@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "hostelstudents",
+  "info": {
+    "name": "hostelstudent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "from": {
+      "default": "",
+      "type": "date"
+    }
+  }
+}

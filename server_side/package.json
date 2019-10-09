@@ -1,0 +1,57 @@
+{
+  "name": "bpitapp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "lint": "eslint api/**/*.js config/**/*.js plugins/**/*.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "knex": "latest",
+    "lodash": "^4.17.5",
+    "mysql": "2.17.1",
+    "strapi": "3.0.0-beta.7",
+    "strapi-admin": "3.0.0-beta.7",
+    "strapi-hook-bookshelf": "3.0.0-beta.7",
+    "strapi-hook-knex": "3.0.0-beta.7",
+    "strapi-plugin-content-manager": "3.0.0-beta.7",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.7",
+    "strapi-plugin-documentation": "^3.0.0-beta.7",
+    "strapi-plugin-email": "3.0.0-beta.7",
+    "strapi-plugin-settings-manager": "3.0.0-beta.7",
+    "strapi-plugin-upload": "3.0.0-beta.7",
+    "strapi-plugin-users-permissions": "3.0.0-beta.7",
+    "strapi-utils": "3.0.0-beta.7"
+  },
+  "author": {
+    "name": "A Strapi developer",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "strapi": {
+    "uuid": "bd195b05-71b7-4da1-90b8-f63556f7546a"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}

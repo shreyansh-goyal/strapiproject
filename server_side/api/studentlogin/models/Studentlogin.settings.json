@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "studentlogins",
+  "info": {
+    "name": "studentlogin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "enrollmentNo": {
+      "default": "",
+      "type": "string"
+    },
+    "pass": {
+      "default": "",
+      "type": "string"
+    },
+    "deleted": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

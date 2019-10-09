@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentlogins",
+      "handler": "Studentlogin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentlogins/count",
+      "handler": "Studentlogin.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentlogins/:id",
+      "handler": "Studentlogin.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentlogins",
+      "handler": "Studentlogin.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentlogins/:id",
+      "handler": "Studentlogin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentlogins/:id",
+      "handler": "Studentlogin.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

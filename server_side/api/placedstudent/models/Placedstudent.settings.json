@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "placedstudents",
+  "info": {
+    "name": "placedstudent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "company": {
+      "default": "",
+      "type": "text"
+    },
+    "package": {
+      "default": "",
+      "type": "string"
+    },
+    "placedOn": {
+      "default": "",
+      "type": "date"
+    },
+    "reportingDate": {
+      "default": "",
+      "type": "date"
+    },
+    "hasReported": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

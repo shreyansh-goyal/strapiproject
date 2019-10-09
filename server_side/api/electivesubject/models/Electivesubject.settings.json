@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "electivesubjects",
+  "info": {
+    "name": "electivesubject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "subjectId": {
+      "default": "",
+      "type": "string"
+    },
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

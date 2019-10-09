@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/placementnotices",
+      "handler": "Placementnotice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/placementnotices/count",
+      "handler": "Placementnotice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/placementnotices/:id",
+      "handler": "Placementnotice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/placementnotices",
+      "handler": "Placementnotice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/placementnotices/:id",
+      "handler": "Placementnotice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/placementnotices/:id",
+      "handler": "Placementnotice.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

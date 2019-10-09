@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "studentattendances",
+  "info": {
+    "name": "studentattendance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "attendanceDayId": {
+      "default": "",
+      "type": "integer"
+    },
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "attendance": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

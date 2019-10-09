@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/teacherbatches",
+      "handler": "Teacherbatch.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teacherbatches/count",
+      "handler": "Teacherbatch.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teacherbatches/:id",
+      "handler": "Teacherbatch.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/teacherbatches",
+      "handler": "Teacherbatch.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/teacherbatches/:id",
+      "handler": "Teacherbatch.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/teacherbatches/:id",
+      "handler": "Teacherbatch.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

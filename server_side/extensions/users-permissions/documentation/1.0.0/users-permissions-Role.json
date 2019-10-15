@@ -602,6 +602,12 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "student": {
+                  "type": "string"
+                },
+                "teacher": {
+                  "type": "string"
                 }
               }
             }

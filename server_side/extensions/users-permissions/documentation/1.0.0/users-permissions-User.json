@@ -1161,6 +1161,154 @@
                 }
               }
             }
+          },
+          "student": {
+            "required": [
+              "id",
+              "rollNo",
+              "enrollmentNo",
+              "courseId",
+              "semester",
+              "year",
+              "section",
+              "group",
+              "studentName",
+              "fatherName",
+              "motherName",
+              "isDropped"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "rollNo": {
+                "type": "integer"
+              },
+              "enrollmentNo": {
+                "type": "string"
+              },
+              "courseId": {
+                "type": "integer"
+              },
+              "semester": {
+                "type": "integer"
+              },
+              "year": {
+                "type": "integer"
+              },
+              "section": {
+                "type": "string"
+              },
+              "group": {
+                "type": "string"
+              },
+              "studentName": {
+                "type": "string"
+              },
+              "fatherName": {
+                "type": "string"
+              },
+              "motherName": {
+                "type": "string"
+              },
+              "gender": {
+                "type": "string"
+              },
+              "dob": {
+                "type": "string"
+              },
+              "phoneNo": {
+                "type": "string"
+              },
+              "fatherPhoneNo": {
+                "type": "string"
+              },
+              "emailId": {
+                "type": "string"
+              },
+              "fatherEmailId": {
+                "type": "string"
+              },
+              "isDropped": {
+                "type": "integer"
+              },
+              "dropReason": {
+                "type": "string"
+              },
+              "aggregate": {
+                "type": "number"
+              },
+              "activeBacklogs": {
+                "type": "integer"
+              },
+              "placed": {
+                "type": "integer"
+              },
+              "companyName": {
+                "type": "string"
+              },
+              "tenPercentage": {
+                "type": "number"
+              },
+              "twelfthPercentage": {
+                "type": "number"
+              },
+              "diploma": {
+                "type": "string"
+              },
+              "gap": {
+                "type": "integer"
+              },
+              "enteranceRank": {
+                "type": "integer"
+              },
+              "resumeUrl": {
+                "type": "string"
+              },
+              "blockedFromDrive": {
+                "type": "string"
+              },
+              "libraryId": {
+                "type": "string"
+              },
+              "libraryFine": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              }
+            }
+          },
+          "teacher": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "teacherId": {
+                "type": "integer"
+              },
+              "teacherName": {
+                "type": "string"
+              },
+              "teacherPhone": {
+                "type": "string"
+              },
+              "teacherEmail": {
+                "type": "string"
+              },
+              "officialEmailId": {
+                "type": "string"
+              },
+              "joiningDate": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1197,6 +1345,12 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "student": {
+            "type": "string"
+          },
+          "teacher": {
             "type": "string"
           }
         }

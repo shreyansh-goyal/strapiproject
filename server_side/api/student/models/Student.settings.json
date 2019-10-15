@@ -146,6 +146,11 @@
     "libraryFine": {
       "default": "0",
       "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "student",
+      "plugin": "users-permissions"
     }
   }
 }

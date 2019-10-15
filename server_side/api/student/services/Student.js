@@ -104,9 +104,49 @@ module.exports = {
     const data = _.omit(values[i], Student.associations.map(ast => ast.alias));
     // Create entry with no-relational data.
     const entry = await Student.forge(data).save();
-   
+    console.log(relations)
+    const register = {
+      "username": values[i].enrollmentNo,
+      "email": values[i].emailId,
+      "password": values[i].enrollmentNo,
+      "confirmed": true,
+      "blocked": false,
+      "student":entry.id
+    }
+    const advanced = await strapi.store({
+      environment: '',
+      type: 'plugin',
+      name: 'users-permissions',
+      key: 'advanced'
+    }).get();
+
+    if (register.unique_email && register.email) {
+      const user = await strapi.plugins['users-permissions'].queries('user', 'users-permissions').findOne({ email: ctx.request.body.email });
+
+      if (user) {
+        return ctx.badRequest(null, ctx.request.admin ? [{ messages: [{ id: 'Auth.form.error.email.taken', field: ['email'] }] }] : 'Email is already taken.');
+      }
+    }
+
+    if (!register.role) {
+      const defaultRole = await strapi.plugins['users-permissions'].queries('role', 'users-permissions').findOne({ type: advanced.default_role }, []);
+
+      register.role = defaultRole._id || defaultRole.id;
+    }
+
+    register.provider = 'local';
+
+    try {
+      const data = await strapi.plugins['users-permissions'].services.user.add(register);
+
+      // Send 201 `created`
+      // ctx.created(data);
+    } catch(error) {
+      console.log(error)
+      // ctx.badRequest(null, ctx.request.admin ? [{ messages: [{ id: error.message, field: error.field }] }] : error.message);
+    }
     // Create relational data and return the entry.
-    Student.updateRelations({ id: entry.id , values: relations });
+   Student.updateRelations({ id: entry.id , values: relations, user:register.id });
     }
     return (values)
   },

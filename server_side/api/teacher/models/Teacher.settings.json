@@ -35,6 +35,11 @@
     "joiningDate": {
       "default": "",
       "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "via": "teacher",
+      "plugin": "users-permissions"
     }
   }
 }

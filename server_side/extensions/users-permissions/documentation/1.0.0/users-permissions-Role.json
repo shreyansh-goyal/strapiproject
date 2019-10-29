@@ -603,10 +603,10 @@
                 "role": {
                   "type": "string"
                 },
-                "student": {
+                "teacher": {
                   "type": "string"
                 },
-                "teacher": {
+                "student": {
                   "type": "string"
                 }
               }

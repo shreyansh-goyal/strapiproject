@@ -1162,6 +1162,37 @@
               }
             }
           },
+          "teacher": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "teacherId": {
+                "type": "integer"
+              },
+              "teacherName": {
+                "type": "string"
+              },
+              "teacherPhone": {
+                "type": "string"
+              },
+              "teacherEmail": {
+                "type": "string"
+              },
+              "officialEmailId": {
+                "type": "string"
+              },
+              "joiningDate": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              }
+            }
+          },
           "student": {
             "required": [
               "id",
@@ -1175,7 +1206,7 @@
               "studentName",
               "fatherName",
               "motherName",
-              "isDropped"
+              "branch"
             ],
             "properties": {
               "id": {
@@ -1276,36 +1307,8 @@
               },
               "user": {
                 "type": "string"
-              }
-            }
-          },
-          "teacher": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
               },
-              "teacherId": {
-                "type": "integer"
-              },
-              "teacherName": {
-                "type": "string"
-              },
-              "teacherPhone": {
-                "type": "string"
-              },
-              "teacherEmail": {
-                "type": "string"
-              },
-              "officialEmailId": {
-                "type": "string"
-              },
-              "joiningDate": {
-                "type": "string"
-              },
-              "user": {
+              "branch": {
                 "type": "string"
               }
             }
@@ -1347,10 +1350,10 @@
           "role": {
             "type": "string"
           },
-          "student": {
+          "teacher": {
             "type": "string"
           },
-          "teacher": {
+          "student": {
             "type": "string"
           }
         }

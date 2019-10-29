@@ -592,7 +592,7 @@
           "studentName",
           "fatherName",
           "motherName",
-          "isDropped"
+          "branch"
         ],
         "properties": {
           "id": {
@@ -756,13 +756,17 @@
               "role": {
                 "type": "string"
               },
-              "student": {
+              "teacher": {
                 "type": "string"
               },
-              "teacher": {
+              "student": {
                 "type": "string"
               }
             }
+          },
+          "branch": {
+            "type": "string",
+            "default": "0"
           }
         }
       },
@@ -778,7 +782,7 @@
           "studentName",
           "fatherName",
           "motherName",
-          "isDropped"
+          "branch"
         ],
         "properties": {
           "rollNo": {
@@ -907,6 +911,10 @@
           },
           "user": {
             "type": "string"
+          },
+          "branch": {
+            "type": "string",
+            "default": "0"
           }
         }
       }

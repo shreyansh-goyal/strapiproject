@@ -56,12 +56,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "student": {
-      "model": "student",
-      "via": "user"
-    },
     "teacher": {
       "model": "teacher",
+      "via": "user"
+    },
+    "student": {
+      "model": "student",
       "via": "user"
     }
   }

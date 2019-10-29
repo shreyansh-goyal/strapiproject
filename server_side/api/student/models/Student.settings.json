@@ -7,7 +7,10 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
@@ -88,8 +91,7 @@
     "isDropped": {
       "default": 0,
       "max": 4294967295,
-      "type": "integer",
-      "required": true
+      "type": "integer"
     },
     "dropReason": {
       "default": "0",
@@ -151,6 +153,11 @@
       "model": "user",
       "via": "student",
       "plugin": "users-permissions"
+    },
+    "branch": {
+      "required": true,
+      "type": "string",
+      "default": "0"
     }
   }
 }

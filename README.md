@@ -22,8 +22,6 @@
 
 ### run project
 
-``` strapi develop 
-           
-           or
-           
-     strapi start   ```
+`` strapi develop 
+          or
+    strapi start ``

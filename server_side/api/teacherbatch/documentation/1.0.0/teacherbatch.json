@@ -539,6 +539,12 @@
           "subjectId": {
             "type": "string",
             "default": ""
+          },
+          "year": {
+            "type": "integer"
+          },
+          "branch": {
+            "type": "string"
           }
         }
       },
@@ -567,6 +573,12 @@
           "subjectId": {
             "type": "string",
             "default": ""
+          },
+          "year": {
+            "type": "integer"
+          },
+          "branch": {
+            "type": "string"
           }
         }
       }

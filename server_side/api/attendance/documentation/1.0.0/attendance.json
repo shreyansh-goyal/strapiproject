@@ -905,10 +905,6 @@
           "id": {
             "type": "string"
           },
-          "date": {
-            "type": "integer",
-            "default": ""
-          },
           "time": {
             "type": "integer",
             "default": ""
@@ -922,14 +918,6 @@
             "default": ""
           },
           "semester": {
-            "type": "integer",
-            "default": ""
-          },
-          "section": {
-            "type": "integer",
-            "default": ""
-          },
-          "group": {
             "type": "integer",
             "default": ""
           },
@@ -948,15 +936,20 @@
           "subject_id": {
             "type": "string",
             "default": ""
+          },
+          "section": {
+            "type": "string"
+          },
+          "group": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
           }
         }
       },
       "NewAttendance": {
         "properties": {
-          "date": {
-            "type": "integer",
-            "default": ""
-          },
           "time": {
             "type": "integer",
             "default": ""
@@ -970,14 +963,6 @@
             "default": ""
           },
           "semester": {
-            "type": "integer",
-            "default": ""
-          },
-          "section": {
-            "type": "integer",
-            "default": ""
-          },
-          "group": {
             "type": "integer",
             "default": ""
           },
@@ -996,6 +981,15 @@
           "subject_id": {
             "type": "string",
             "default": ""
+          },
+          "section": {
+            "type": "string"
+          },
+          "group": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
           }
         }
       }

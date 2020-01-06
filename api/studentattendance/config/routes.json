@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentattendance",
+      "handler": "Studentattendance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentattendance/count",
+      "handler": "Studentattendance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentattendance/:id",
+      "handler": "Studentattendance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentattendance",
+      "handler": "Studentattendance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentattendance/:id",
+      "handler": "Studentattendance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentattendance/:id",
+      "handler": "Studentattendance.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentattendance/:id/relationships/:relation",
+      "handler": "Studentattendance.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentattendance/:id/relationships/:relation",
+      "handler": "Studentattendance.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentattendance/:id/relationships/:relation",
+      "handler": "Studentattendance.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

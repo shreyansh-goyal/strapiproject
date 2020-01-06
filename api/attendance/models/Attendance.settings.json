@@ -1,0 +1,59 @@
+{
+  "connection": "default",
+  "collectionName": "attendances",
+  "info": {
+    "name": "attendance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "date": {
+      "default": "",
+      "type": "integer"
+    },
+    "time": {
+      "default": "",
+      "type": "integer"
+    },
+    "enrollment_no": {
+      "default": "",
+      "type": "integer"
+    },
+    "courseId": {
+      "default": "",
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer" 
+    },
+    "section": {
+      "default": "",
+      "type": "integer"
+    },
+    "group": {
+      "default": "",
+      "type": "integer"
+    },
+    "totalPresent": {
+      "default": "",
+      "type": "integer"
+    },
+    "totalAbsent": {
+      "default": "",
+      "type": "integer"
+    },
+    "class_id": {
+      "default": "",
+      "type": "string"
+    },
+    "subject_id": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

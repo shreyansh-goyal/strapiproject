@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "studentresultconsolidateds",
+  "info": {
+    "name": "studentresultconsolidated",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "unique": true,
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    },
+    "aggregate": {
+      "default": "",
+      "type": "float"
+    },
+    "creditScored": {
+      "default": "",
+      "type": "integer"
+    },
+    "backs": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

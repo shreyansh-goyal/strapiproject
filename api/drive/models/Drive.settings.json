@@ -1,0 +1,87 @@
+{
+  "connection": "default",
+  "collectionName": "drives",
+  "info": {
+    "name": "drive",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "driveId": {
+      "default": "",
+      "type": "integer"
+    },
+    "companyname": {
+      "default": "",
+      "type": "string"
+    },
+    "website": {
+      "default": "",
+      "type": "string"
+    },
+    "profile": {
+      "default": "",
+      "type": "string"
+    },
+    "package": {
+      "default": "",
+      "type": "string"
+    },
+    "companyDetails": {
+      "default": "",
+      "type": "text"
+    },
+    "hiringProcess": {
+      "default": "",
+      "type": "text"
+    },
+    "jobLocation": {
+      "default": "",
+      "type": "string"
+    },
+    "minTen": {
+      "default": "",
+      "type": "integer"
+    },
+    "minTwelfth": {
+      "default": "",
+      "type": "integer"
+    },
+    "minAggreage": {
+      "default": "",
+      "type": "integer"
+    },
+    "backlogAllowed": {
+      "default": "",
+      "type": "integer"
+    },
+    "otherInformation": {
+      "default": "",
+      "type": "text"
+    },
+    "createdOn": {
+      "default": "",
+      "type": "date"
+    },
+    "validTill": {
+      "default": "",
+      "type": "date"
+    },
+    "active": {
+      "default": "",
+      "type": "integer"
+    },
+    "glassdoorLink": {
+      "default": "",
+      "type": "string"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

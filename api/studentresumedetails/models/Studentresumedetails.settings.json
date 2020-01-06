@@ -1,0 +1,71 @@
+{
+  "connection": "default",
+  "collectionName": "studentresumedetails",
+  "info": {
+    "name": "studentresumedetails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "type": {
+      "default": "",
+      "type": "integer"
+    },
+    "organisation": {
+      "default": "",
+      "type": "string"
+    },
+    "percentage": {
+      "default": "",
+      "type": "float"
+    },
+    "board": {
+      "default": "",
+      "type": "string"
+    },
+    "yearofpassing": {
+      "default": "",
+      "type": "string"
+    },
+    "endingDate": {
+      "default": "",
+      "type": "string"
+    },
+    "role": {
+      "default": "",
+      "type": "string"
+    },
+    "technology": {
+      "default": "",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "rating": {
+      "default": "",
+      "type": "integer"
+    },
+    "startingDate": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

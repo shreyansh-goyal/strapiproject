@@ -1,0 +1,99 @@
+{
+  "connection": "default",
+  "collectionName": "studentdrives",
+  "info": {
+    "name": "studentdrive",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "driveId": {
+      "default": "",
+      "type": "integer"
+    },
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "appliedOn": {
+      "default": "",
+      "type": "date"
+    },
+    "studentName": {
+      "default": "",
+      "type": "string"
+    },
+    "phone": {
+      "default": "",
+      "type": "string"
+    },
+    "emailId": {
+      "default": "",
+      "type": "string"
+    },
+    "aggreagate": {
+      "default": "",
+      "type": "float"
+    },
+    "dob": {
+      "default": "",
+      "type": "string"
+    },
+    "activeBacklog": {
+      "default": "",
+      "type": "integer"
+    },
+    "placed": {
+      "default": "",
+      "type": "integer"
+    },
+    "placedCompany": {
+      "default": "",
+      "type": "integer"
+    },
+    "tenPercentage": {
+      "default": "",
+      "type": "float"
+    },
+    "twelfthPercentage": {
+      "default": "",
+      "type": "float"
+    },
+    "tenBoard": {
+      "default": "",
+      "type": "string"
+    },
+    "twelfthBoard": {
+      "default": "",
+      "type": "string"
+    },
+    "diploma": {
+      "default": "",
+      "type": "float"
+    },
+    "gap": {
+      "default": "",
+      "type": "integer"
+    },
+    "enteranceRank": {
+      "default": "",
+      "type": "integer"
+    },
+    "resumeUrl": {
+      "default": "",
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "string"
+    },
+    "branch": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

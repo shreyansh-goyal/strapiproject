@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "tokens",
+  "info": {
+    "name": "token",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "token": {
+      "default": "",
+      "type": "string"
+    },
+    "userId": {
+      "default": "",
+      "type": "string"
+    },
+    "userType": {
+      "default": "",
+      "type": "string"
+    },
+    "createdOn": {
+      "default": "",
+      "type": "string"
+    },
+    "validTill": {
+      "default": "",
+      "type": "string"
+    },
+    "isActive": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

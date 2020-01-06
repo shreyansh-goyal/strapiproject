@@ -1,0 +1,71 @@
+{
+  "connection": "default",
+  "collectionName": "subjects",
+  "info": {
+    "name": "subject",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "subjectId": {
+      "default": "",
+      "unique": true,
+      "type": "string"
+    },
+    "subjectCode": {
+      "default": "",
+      "unique": true,
+      "type": "string"
+    },
+    "courseId": {
+      "default": "",
+      "unique": true,
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    },
+    "subjectName": {
+      "default": "",
+      "type": "string"
+    },
+    "lab": {
+      "default": "",
+      "type": "integer"
+    },
+    "credit": {
+      "default": "",
+      "type": "integer"
+    },
+    "isElective": {
+      "default": "",
+      "type": "integer"
+    },
+    "isTaught": {
+      "default": "",
+      "type": "integer"
+    },
+    "isMandatory": {
+      "default": 0,
+      "type": "integer"
+    },
+    "recommandedBook1": {
+      "default": "",
+      "type": "string"
+    },
+    "recommandedBook2": {
+      "default": "",
+      "type": "string"
+    },
+    "teacherId": {
+      "default": "",
+      "unique": true,
+      "type": "string"
+    }
+  }
+}

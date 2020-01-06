@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentresumedetails",
+      "handler": "Studentresumedetails.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentresumedetails/count",
+      "handler": "Studentresumedetails.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentresumedetails/:id",
+      "handler": "Studentresumedetails.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentresumedetails",
+      "handler": "Studentresumedetails.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentresumedetails/:id",
+      "handler": "Studentresumedetails.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentresumedetails/:id",
+      "handler": "Studentresumedetails.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

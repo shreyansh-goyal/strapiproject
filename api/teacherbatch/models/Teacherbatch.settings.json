@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "teacherbatches",
+  "info": {
+    "name": "teacherbatch",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "teacherId": {
+      "default": 0,
+      "unique": true,
+      "type": "integer"
+    },
+    "courseId": {
+      "default": "",
+      "unique": true,
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    },
+    "section": {
+      "default": "",
+      "type": "string"
+    },
+    "_group": {
+      "default": "",
+      "type": "string"
+    },
+    "subjectId": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

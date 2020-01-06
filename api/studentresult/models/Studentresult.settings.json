@@ -1,0 +1,59 @@
+{
+  "connection": "default",
+  "collectionName": "studentresults",
+  "info": {
+    "name": "studentresult",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "studentId": {
+      "default": "",
+      "type": "integer"
+    },
+    "semester": {
+      "default": "",
+      "type": "integer"
+    },
+    "subjectId": {
+      "default": "",
+      "type": "string"
+    },
+    "internal": {
+      "default": "",
+      "type": "float"
+    },
+    "external": {
+      "default": "",
+      "type": "float"
+    },
+    "internal10": {
+      "default": "",
+      "type": "float"
+    },
+    "total": {
+      "default": "",
+      "type": "float"
+    },
+    "hasBack": {
+      "default": "",
+      "type": "integer"
+    },
+    "creditScored": {
+      "default": "",
+      "type": "integer"
+    },
+    "hasBackCleared": {
+      "default": "",
+      "type": "integer"
+    },
+    "clearedInSemester": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

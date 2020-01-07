@@ -520,9 +520,8 @@
             "type": "string",
             "default": ""
           },
-          "studentId": {
-            "type": "integer",
-            "default": ""
+          "enrollmentNo": {
+            "type": "string"
           }
         }
       },
@@ -532,9 +531,8 @@
             "type": "string",
             "default": ""
           },
-          "studentId": {
-            "type": "integer",
-            "default": ""
+          "enrollmentNo": {
+            "type": "string"
           }
         }
       }

@@ -7,14 +7,13 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
-    "date": {
-      "default": "",
-      "type": "integer"
-    },
     "time": {
       "default": "",
       "type": "integer"
@@ -28,14 +27,6 @@
       "type": "integer"
     },
     "semester": {
-      "default": "",
-      "type": "integer" 
-    },
-    "section": {
-      "default": "",
-      "type": "integer"
-    },
-    "group": {
       "default": "",
       "type": "integer"
     },
@@ -54,6 +45,15 @@
     "subject_id": {
       "default": "",
       "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

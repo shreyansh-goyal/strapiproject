@@ -129,7 +129,7 @@ module.exports = {
     }
 
     if (!register.role) {
-      const defaultRole = await strapi.plugins['users-permissions'].queries('role', 'users-permissions').findOne({ type: advanced.default_role }, []);
+      const defaultRole = await strapi.plugins['users-permissions'].queries('role', 'users-permissions').findOne({ name:"Teacher"}, []);
 
       register.role = defaultRole._id || defaultRole.id;
     }
@@ -189,7 +189,7 @@ module.exports = {
     }
 
     if (!register.role) {
-      const defaultRole = await strapi.plugins['users-permissions'].queries('role', 'users-permissions').findOne({ type: advanced.default_role }, []);
+      const defaultRole = await strapi.plugins['users-permissions'].queries('role', 'users-permissions').findOne({ name:"Teacher"}, []);
 
       register.role = defaultRole._id || defaultRole.id;
     }

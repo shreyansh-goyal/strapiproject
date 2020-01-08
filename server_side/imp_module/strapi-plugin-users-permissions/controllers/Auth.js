@@ -263,7 +263,7 @@ module.exports = {
         );
       }
 
-      if(user.role != 'teacher')
+      if(user.role.name != 'Teacher')
       return ctx.badRequest(
         null,
         ctx.request.admin
@@ -423,7 +423,7 @@ module.exports = {
         );
       } 
 
-      if(user.role != 'admin')
+      if(user.role.name != 'Admin')
       return ctx.badRequest(
         null,
         ctx.request.admin

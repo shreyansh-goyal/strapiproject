@@ -3,7 +3,7 @@
 
 ### Install strapi
 
-``` npm i strapi ```
+``` npm i strapi -g ```
 
 ### Install all Dependencies
 

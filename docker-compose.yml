@@ -1,11 +1,22 @@
 version: '3'
-
 services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mysql-development
+    links:
+      - mysql-development
+    volumes:
+      - "/home/duckie/Documents/tmp/strapiproject:/root/"
+    command: /bin/bash -c "cd /root/server_side/ && npm i strapi -g && npm install && strapi build && strapi start"
 
   mysql-development:
+    container_name: mysql-development
     image: mysql:8.0.17
     environment:
-      MYSQL_ROOT_PASSWORD: passwordcomplex 
-      MYSQL_DATABASE: teacherdb 
+      MYSQL_ROOT_PASSWORD: M@y@nk250199 
+      MYSQL_DATABASE: teacher 
     ports:
-      - "3308:3306"
+      - "3306:3306"

@@ -6,4 +6,3 @@ echo "create database teacher;" | mysql -u root --password=M@y@nk250199
 cd server_side
 npm install
 strapi build
-strapi start

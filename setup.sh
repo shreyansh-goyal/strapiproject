@@ -4,5 +4,6 @@ npm install
 /etc/init.d/mysql start
 echo "create database teacher;" | mysql -u root --password=M@y@nk250199
 cd server_side
+npm install strapi -g
 npm install
 strapi build

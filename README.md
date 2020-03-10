@@ -28,4 +28,4 @@
     
     
  # Docker Implementation
- The docker compose file is pretty self-explanantory. The app is deployed in two container node and mysql with help of the docker compose file. This is will help in hosting of this app easily on cloud or any linux server.
+ The docker file is pretty self-explanantory. The backend is deployed in one docker file with port 1337 and 3306 exposed. This setup is currently hosted on the herokuapp @ https://glacial-ravine-52971.herokuapp.com/admin/login. In furture it will be self hosted on the BPIT infrastructure.

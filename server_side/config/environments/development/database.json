@@ -8,8 +8,8 @@
         "host": "localhost",
         "port": 3306,
         "database": "teacher",
-        "username": "root", 
-        "password": "M@y@nk250199"
+        "username": "shreyansh", 
+        "password": "Deepak123@"
       },
       "options": {
         "pool":{

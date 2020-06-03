@@ -5,11 +5,11 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "mysql",
-        "host": "localhost",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
         "port": 3306,
-        "database": "teacher",
-        "username": "shreyansh", 
-        "password": "Deepak123@"
+        "database": "${process.env.DATABASE_NAME || 'strapi'}",
+        "username":  "${process.env.DATABASE_USERNAME || 'admin'}", 
+        "password": "${process.env.DATABASE_PASSWORD || 'shreyanshgoyal'}"
       },
       "options": {
         "pool":{

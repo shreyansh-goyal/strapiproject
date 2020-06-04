@@ -1,4 +1,4 @@
-git clone https://github.com/not-duckie/strapiproject.git /root/strapiproject
+git clone https://github.com/shreyansh-goyal/strapiproject.git /root/strapiproject
 cd /root/strapiproject/
 npm install
 npm i strapi -g

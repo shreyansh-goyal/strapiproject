@@ -1,5 +1,5 @@
 git clone https://github.com/shreyansh-goyal/strapiproject.git /root/strapiproject
-cd /root/strapiproject/
+cd /root/strapiproject/server_side/
 npm install
 npm i strapi -g
 /etc/init.d/mysql start
